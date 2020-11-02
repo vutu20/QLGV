@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Cập nhập thông tin phân công giảng dạy" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mã giáo viên: " />
+
+        <EditText
+            android:id="@+id/edtmagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mã môn học: " />
+
+        <EditText
+            android:id="@+id/edtmamh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mã lớp: " />
+
+        <EditText
+            android:id="@+id/edtmalop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Học kỳ: " />
+
+        <EditText
+            android:id="@+id/edthocky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Năm học: " />
+
+        <EditText
+            android:id="@+id/edtnamhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnsuapcgd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sửa" />
+    </TableRow>
+
+
+</LinearLayout>

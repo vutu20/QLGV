@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qlgv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".listgiaovien.qlgv"
+            android:label="Quản lý giáo viên" />
+        <activity android:name=".listgiaovien.themgv"
+            android:label="Thêm giáo viên"/>
+        <activity android:name=".listgiaovien.suagv"
+            android:label="Cập nhập giáo viên"/>
+        <activity android:name=".listgiaovien.hienthigv"
+            android:label="Hiển thị giáo viên"/>
+        <activity android:name=".listgiaovien.xoagv"
+            android:label="Xóa giáo viên"/>
+        <activity android:name=".listmonhoc.qlmh"
+            android:label="Quản lý môn học" />
+        <activity android:name=".listmonhoc.themmh"
+            android:label="Thêm môn học"/>
+        <activity android:name=".listmonhoc.suamh"
+            android:label="Cập nhập môn học"/>
+        <activity android:name=".listmonhoc.hienthimh"
+            android:label="Hiển thị môn học"/>
+        <activity android:name=".listmonhoc.xoamh"
+            android:label="Xóa môn học"/>
+        <activity android:name=".listtobomon.qltbm"
+            android:label="Quản lý tổ bộ môn" />
+        <activity android:name=".listtobomon.themtbm"
+            android:label="Thêm tổ bộ môn"/>
+        <activity android:name=".listtobomon.suatbm"
+            android:label="Cập nhập tổ bộ môn"/>
+        <activity android:name=".listtobomon.hienthitbm"
+            android:label="Hiển thị tổ bộ môn"/>
+        <activity android:name=".listtobomon.xoatbm"
+            android:label="Xóa tổ bộ môn"/>
+        <activity android:name=".listphancong.qlpcgd"
+            android:label="Quản lý phân công giảng dạy" />
+        <activity android:name=".listphancong.thempcgd"
+            android:label="Thêm phân công giảng dạy"/>
+        <activity android:name=".listphancong.suapcgd"
+            android:label="Cập nhập phân công giảng dạy"/>
+        <activity android:name=".listphancong.hienthipcgd"
+            android:label="Hiển thị phân công giảng dạy"/>
+        <activity android:name=".listphancong.xoapcgd"
+            android:label="Xóa phân công giảng dạy"/>
+        <activity android:name=".listlop.qllop"
+            android:label="Quản lý lớp" />
+        <activity android:name=".listlop.themlop"
+            android:label="Thêm lớp"/>
+        <activity android:name=".listlop.sualop"
+            android:label="Cập nhập lớp"/>
+        <activity android:name=".listlop.hienthilop"
+            android:label="Hiển thị lớp"/>
+        <activity android:name=".listlop.xoalop"
+            android:label="Xóa lớp"/>
+        <activity android:name=".menu"
+            android:label="Giao diện chính"/>
+        <activity android:name=".thongke"
+            android:label="Thống kê"/>
+        <activity android:name=".tkgioitinh"
+            android:label="Thống kê giới tính"/>
+        <activity android:name=".tksgd"
+            android:label="Thống kê số giờ dạy"/>
+    </application>
+</manifest>

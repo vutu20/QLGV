@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản lý lớp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/edttimkiemlop"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="20"
+            android:gravity="center"
+            android:hint="Tìm kiếm"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imbtimkiemlop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="TimKiemlop"
+            app:srcCompat="@drawable/icon_tk" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imbthemlop"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_them"
+            android:onClick="nhapthongtinlop" />
+
+        <ImageButton
+            android:id="@+id/imbtsualop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:onClick="capnhapthongtinlop"
+            android:background="@drawable/icon_update" />
+
+        <ImageButton
+            android:id="@+id/imbxoalop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="xoathongtinlop"
+            android:background="@drawable/icon_xoa" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvthemlop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="73dp"
+            android:text="Thêm" />
+
+        <TextView
+            android:id="@+id/tvsualop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <TextView
+            android:id="@+id/tvxoalop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Xóa" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvdanhsachlop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

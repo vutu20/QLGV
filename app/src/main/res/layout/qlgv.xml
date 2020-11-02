@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Quản lý giáo viên"
+    android:textColor="#000000"
+    android:textSize="25dp"
+    android:layout_gravity="center"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/edttimkiemgv"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="20"
+            android:gravity="center"
+            android:hint="Tìm kiếm"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imbtimkiemgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="TimKiem"
+            app:srcCompat="@drawable/icon_tk" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imbthemgv"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_them"
+            android:onClick="nhapthongtingv" />
+
+        <ImageButton
+            android:id="@+id/imbtsuagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:onClick="capnhapthongtingv"
+            android:background="@drawable/icon_update" />
+
+        <ImageButton
+            android:id="@+id/imbxoagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="xoathongtingv"
+            android:background="@drawable/icon_xoa" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvthemgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="73dp"
+            android:text="Thêm" />
+
+        <TextView
+            android:id="@+id/tvsuagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <TextView
+            android:id="@+id/tvxoagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Xóa" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvdanhsachgv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

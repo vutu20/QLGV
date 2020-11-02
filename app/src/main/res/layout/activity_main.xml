@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="268dp">
+
+        <ImageView
+
+            android:layout_width="397dp"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/logo">
+
+        </ImageView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvdangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP"
+        android:background="#B9008EFF"
+        android:textColor="#FFFFFF"
+        android:textSize="15pt"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tvtaikhoan"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/taikhoan" />
+
+        <EditText
+            android:id="@+id/edttaikhoan"
+            android:layout_width="664dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nhập tên tài khoản"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tvmatkhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_password" />
+
+        <EditText
+            android:id="@+id/edtmatkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:text="Thoát"/>
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:layout_marginLeft="90dp"
+            android:text="Đăng nhập" />
+    </TableRow>
+</LinearLayout>
